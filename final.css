@@ -38,29 +38,80 @@ li a:hover:not(.active){
 }
 
 #home {
+    margin-top: 30px;
     background-color: #7EE8FA;
     background-image: linear-gradient(#7EE8FA,#EEC0C6);
-    margin-top: 30px;
+    padding-top: 50vh;
+
 }
 
-#welcome-text{
+.right-title{
     margin-top: 15vh;
     padding-left: 16vw;
 }
 
-#welcome-paragraph{
+.left-title{
+    padding-left: 25vw;
+    margin-top: 20vh;
+}
+
+.left-text{
+    padding-left: 16vw;
+}
+
+
+.welcome-paragraph{
     padding-right: 100px;
 }
+
 
 .column{
     flex: 50%;
 }
 
-.row{
-    display: flex;
+.column-right{
+    flex: 35%;
+    margin-right: auto;
 }
 
-.card{
-    border: 2px solid #10559A;
-    padding: 20px;
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gradient-section{
+    background-color: #7EE8FA;
+    background-image: linear-gradient(#7EE8FA,#EEC0C6);
+}
+
+#about-me{
+    width: 100%;
+}
+
+#projects{
+    padding: 10px;
+    padding-right: 10vw;
+}
+
+.project-img{
+    width: 20vw;
+    padding-left: 15px;
+}
+
+.card-title{
+    padding-left: 10vw;
+}
+
+.card-text{
+    padding-left: 10vw;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+#footer{
+    padding-left: 4vw;
+}
+
+#footer-text{
+    font-size: 14px;
 }

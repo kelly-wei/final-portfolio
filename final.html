@@ -18,6 +18,12 @@
             color: black;
           }
 
+          h2{
+            font-family: 'Fredoka', serif;
+            font-size: 25px;
+            color: #10559A;
+          }
+
         </style>
 
         <meta charset="utf-8">
@@ -42,9 +48,8 @@
     <body>
         <div id = "navbar">
             <ul>
-                <li><a href = "#contact">Contact Me</a></li>
-                <li><a href = "#about">About Me</a></li>
-                <li><a href = "#work">My Projects</a></li>
+                <li><a href = "#about-me">About Me</a></li>
+                <li><a href = "#projects">My Projects</a></li>
                 <li><a href = "#home">Home</a></li>
             </ul>
         </div>
@@ -55,43 +60,113 @@
             </div>
             
             <div class="column">
-                <h1 id = "welcome-text">Welcome!</h1>
-                <p id = "welcome-paragraph">My name is <b><span style="color: #10559A;">Sleepy Butterfly</span></b>. 
-                    Currently, I am pursuing UI/UX and Design as a student at Brown University or drinking copious 
-                    amounts of tea.</p>
+                <h1 class = "right-title">Welcome!</h1>
+                <p class = "welcome-paragraph">My name is <b><span style="color: #10559A;">Sleepy Butterfly</span></b>. 
+                    Currently, I am pursuing UI/UX and Design as a student at Brown University, excited to learn more about 
+                    making technology user-friendly, accessible, and practical. </p>
             </div>
         </div>
 
-        <div id = "work">
-            <center><b><h1 style = "color: #10559A;">My Work</h1></b></center>
-            <div class = "card-row">
-                <div class = "card-column">
-                    <div class = "card">
-    
-                    </div>
+        <div id = "projects">
+            <div class = "row">
+                <div class = "column">
+                    <h1 class = "left-title">My Projects</h1>
+                    <p class = "left-text">Here are some of the projects that I completed as a student and my learnings as I explored 
+                        UI/UX.</p>
                 </div>
-    
-                <div class = "card-column">
-                    <div class = "card">
-    
-                    </div>
+
+                <div class = "column-right">
+                    <image src = "image-library/working-computer.PNG"></image>
+
                 </div>
             </div>
 
-            <div class = "card-row">
-                <div class = "card-column">
+            <br><br>
+            <br><br>
+
+            <div class = "row">
+                <div class = "column">
                     <div class = "card">
-    
+                        <br><br>
+                        <br><br>
+                        <center><a href = "https://sleepybutterfly623.github.io/developp/" target="_blank" rel="noopener noreferrer">
+                            <image class = "project-img" src = "image-library/development.png"></image></a></center>
+                            <br><br>
+                        <a href = "https://sleepybutterfly623.github.io/developp/" target="_blank" rel="noopener noreferrer"><h2 class = "card-title">Development</h2></a>
+                        <p class = "card-text">Explored React in order to create a list-based interface.</p>
                     </div>
                 </div>
-    
-                <div class = "card-column">
+
+
+                <div class = "column">
                     <div class = "card">
-    
+                        <center><a href = "https://sites.google.com/brown.edu/personas-and-boba/home" target="_blank" rel="noopener noreferrer">
+                            <image class = "project-img" src = "image-library/personas.png"></image></a></center>
+                            <a href = "https://sites.google.com/brown.edu/personas-and-boba/home" target="_blank" rel="noopener noreferrer"><h2 class = "card-title">Personas</h2></a>
+                        <p class = "card-text">Observed and interviewed real users interacting with an interface, created personas based on these users, and 
+                            illustrated a storyboard to properly understand the concept of persona and how valuable they can be for the design process.
+                        </p>
                     </div>
+                </div>
+
+            </div>
+
+            <br><br>
+
+            <div class = "row">
+                <div class = "column">
+                    <div class = "card">
+                        <br><br>
+                        <br><br>
+                        <center><a href = "https://crazyrhino1300.github.io/Iterative-Design/" target="_blank" rel="noopener noreferrer">
+                            <image class = "project-img" src = "image-library/iterative-design.png"></image></a></center>
+                            <a href = "https://crazyrhino1300.github.io/Iterative-Design/" target="_blank" rel="noopener noreferrer"><h2 class = "card-title">Iterative Design</h2></a>
+                        <p class = "card-text">Worked in a group to design an interactive interface for the emerging startup, Koala and understood the 
+                            iterative design process flow: 
+                        </p>
+                        <p class = "card-text">1) Sketching</p>
+                        <p class = "card-text">2) High-fidelity prototyping </p>
+                        <p class = "card-text">3) User testing</p>
+                        <p class = "card-text">4) Prototype revision and application of user feedback</p>
+                    </div>
+                </div>
+
+                <div class = "column">
+                    <div class = "card">
+                        <center><a href = "https://sleepybutterfly623.github.io/mokban-resdesign/mokban.html" target="_blank" rel="noopener noreferrer">
+                                <image class = "project-img" src = "image-library/responsive-redesign.png"></image></a></center>
+                                <a href = "" target="_blank" rel="noopener noreferrer"><h2 class = "card-title">Responsive Redesign</h2></a>
+                            <p class = "card-text">Applied the following criterias to redesign a simple website:
+                            </p>
+                            <p class = "card-text">1) Usability</p>
+                            <p class = "card-text">2) Learnability</p>
+                            <p class = "card-text">3) Memorability</p>
+                            <p class = "card-text">4) Conceptual Models</p>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class = "gradient-section" id = "about-me">
+            <div class = "row">
+                <div class = "column">
+                    <center><image src = "image-library/books.PNG"></image></center>
+                </div>
+                
+                <div class="column">
+                    <h1 class = "right-title">About Me!</h1>
+                    <p class = "welcome-paragraph">I'm a student at Brown University currently studying Computer Science with 
+                        interests in Artificial Intelligence and Design. Outside of Computer Science, I'm interested in Cognitive Processes,
+                    Social Psychology, and Entrepreneurship.</p>
+
+                    <p class = "welcome-paragraph">Beyond the classroom, you can find me crocheting, drinking tea, or taking long walks.</p>
                 </div>
             </div>
         </div>
-        
     </body>
+
+    <footer id = "footer">
+        <i><p id = "footer-text">Made with ❤ Sleepy Butterfly 2022</p></i>
+    </footer>
 </html>
