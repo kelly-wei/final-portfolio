@@ -26,6 +26,7 @@ li a{
     text-decoration: none;
     cursor: pointer;
     background-color: #7EE8FA;
+    font-size: 17px;
 }
 
 li a:hover:not(.active){
@@ -114,4 +115,11 @@ li a:hover:not(.active){
 
 #footer-text{
     font-size: 14px;
+}
+
+#working-img{
+    width: 250px;
+    height: 250px;
+    margin-top: 120px;
+    margin-left: 200px;
 }
