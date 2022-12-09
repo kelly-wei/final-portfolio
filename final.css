@@ -92,6 +92,8 @@ li a:hover:not(.active){
 #projects{
     padding: 10px;
     padding-right: 10vw;
+    padding-left: 5vw;
+    padding-bottom: 10vh;
 }
 
 .project-img{
@@ -105,7 +107,7 @@ li a:hover:not(.active){
 
 .card-text{
     padding-left: 10vw;
-    font-size: 14px;
+    font-size: 18px;
     padding-right: 10px;
 }
 
