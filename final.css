@@ -42,13 +42,13 @@ li a:hover:not(.active){
     margin-top: 30px;
     background-color: #7EE8FA;
     background-image: linear-gradient(#7EE8FA,#EEC0C6);
-    padding-top: 50vh;
+    padding-top: 5vh;
 
 }
 
 .right-title{
     margin-top: 15vh;
-    padding-left: 16vw;
+    padding-right: 10vw;
 }
 
 .left-title{
@@ -92,23 +92,8 @@ li a:hover:not(.active){
 #projects{
     padding: 10px;
     padding-right: 10vw;
-    padding-left: 5vw;
+    padding-left: 10vw;
     padding-bottom: 10vh;
-}
-
-.project-img{
-    width: 20vw;
-    padding-left: 15px;
-}
-
-.card-title{
-    padding-left: 10vw;
-}
-
-.card-text{
-    padding-left: 10vw;
-    font-size: 18px;
-    padding-right: 10px;
 }
 
 #footer{
@@ -124,4 +109,8 @@ li a:hover:not(.active){
     height: 250px;
     margin-top: 120px;
     margin-left: 200px;
+}
+
+.proj-img{
+    width: 550px;
 }
